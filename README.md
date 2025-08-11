@@ -1,17 +1,21 @@
-# oasisinfobytetask3
-Sales Prediction Project Using Data Analytics
-This project is aimed at predicting sales using data analytics techniques. The goal is to develop a model that can accurately forecast future sales based on historical data. This README file provides an overview of the project, including the necessary steps to reproduce the results and an explanation of the project structure.
+The Sales Prediction project is designed to forecast future sales by analysing historical data and various influencing factors such as product type, store location, advertising spend, and seasonal trends.
 
-Table of Contents
-Project Overview
-Dataset
-Results
+Data preprocessing was carried out using Pandas and NumPy to clean the dataset, handle missing values, and encode categorical features. For exploratory data analysis, Matplotlib and Seaborn were used to visualize sales patterns, seasonal variations, and relationships between key features.
 
-Project Overview
-The sales prediction project aims to leverage data analytics techniques to forecast future sales based on historical data. By analyzing patterns, trends, and relationships within the data, we can develop a predictive model that can provide valuable insights for business planning and decision-making.
+Multiple regression models were implemented using Scikit-learn, including:
 
-Dataset
-To perform sales prediction, a dataset containing historical sales data is required. The dataset should include relevant features such as time period, sales volume, product attributes, pricing information, and any other variables that might affect sales.
+Linear Regression
 
-Results
-The project aims to predict future sales accurately. The results may vary depending on the dataset used, the preprocessing techniques applied, and the chosen mode
+Random Forest Regressor
+
+XGBoost
+
+Model performance was evaluated using:
+
+R² Score – for variance explanation
+
+MAE (Mean Absolute Error) – for average error measurement
+
+RMSE (Root Mean Squared Error) – for error magnitude assessment
+
+The best-performing model delivers highly accurate sales forecasts, providing valuable insights for inventory management, marketing strategies, and budgeting decisions.
