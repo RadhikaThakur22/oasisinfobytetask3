@@ -4,18 +4,18 @@ Data preprocessing was carried out using Pandas and NumPy to clean the dataset, 
 
 Multiple regression models were implemented using Scikit-learn, including:
 
-Linear Regression
+1. Linear Regression
 
-Random Forest Regressor
+2. Random Forest Regressor
 
-XGBoost
+3. XGBoost
 
 Model performance was evaluated using:
 
-R² Score – for variance explanation
+1. R² Score – for variance explanation
 
-MAE (Mean Absolute Error) – for average error measurement
+2. MAE (Mean Absolute Error) – for average error measurement
 
-RMSE (Root Mean Squared Error) – for error magnitude assessment
+3. RMSE (Root Mean Squared Error) – for error magnitude assessment
 
 The best-performing model delivers highly accurate sales forecasts, providing valuable insights for inventory management, marketing strategies, and budgeting decisions.
